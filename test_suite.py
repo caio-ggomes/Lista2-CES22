@@ -1,5 +1,5 @@
 from test import test
-from wordtools import cleanword, has_dashdash, extract_words, wordcount, wordset, longestword
+from wordtools import *
 
 
 test(cleanword("what?") == "what")
